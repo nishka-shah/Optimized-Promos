@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Proprietary data (keep data_cleaning.py tracked)
+data/*
+!data/data_cleaning.py

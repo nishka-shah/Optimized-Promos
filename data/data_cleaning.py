@@ -90,7 +90,7 @@ def calculate_all_prices(item_code, visited_aliases=None):
 
 
 # Apply the logic to every row in sales data
-# Create a new column 'Retail Price' by applying our function to Column D
+# Create a new column 'Retail Price' by applying the function to Column D
 new_columns = [
     "Standard Cost",
     "Retail Price",
